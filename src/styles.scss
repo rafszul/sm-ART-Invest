@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700|Oswald:200,400&amp;subset=cyrillic');
+// this is the main scss file! only @import and comments!
 
 @import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
-body {
-    font-family: Roboto;
-}
+
+@import 'purple-orange.scss';

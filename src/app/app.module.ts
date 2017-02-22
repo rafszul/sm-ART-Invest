@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 
 import { MaterialModule } from '@angular/material';
+import { MdlModule } from 'angular2-mdl';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import 'hammerjs';
 import { AngularFireModule } from 'angularfire2';
@@ -23,7 +24,8 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     MaterialModule.forRoot(),
     FlexLayoutModule,
-    AngularFireModule.initializeApp(firebaseConfig)
+    AngularFireModule.initializeApp(firebaseConfig),
+    MdlModule
   ],
   providers: [],
   bootstrap: [AppComponent]

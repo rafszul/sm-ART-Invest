@@ -9,6 +9,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import 'hammerjs';
 import { AngularFireModule } from 'angularfire2';
 import { firebaseConfig } from '../app/shared/firebase.config';
+import {NgsRevealModule} from 'ng2-scrollreveal';
 
 import { AppComponent } from './app.component';
 
@@ -23,7 +24,8 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     MaterialModule.forRoot(),
     FlexLayoutModule,
-    AngularFireModule.initializeApp(firebaseConfig)
+    AngularFireModule.initializeApp(firebaseConfig),
+    NgsRevealModule.forRoot()
 
   ],
   providers: [],

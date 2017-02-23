@@ -1,6 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 
-@charset 'UTF-8';
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700|Oswald:200,400&amp;subset=cyrillic');
-// this is the main scss file! only @import and comments!
-@import './assets/styles/material.min.css';
+@import "~angular2-mdl/scss/color-definitions";
+$color-primary: $palette-light_green-500;
+$color-primary-dark: $palette-light_green-700;
+$color-accent: $palette-amber-A200;
+$color-primary-contrast: $color-dark-contrast;
+$color-accent-contrast: $color-dark-contrast;
+@import '~angular2-mdl/scss/material-design-lite';
+$app-main-font: 'Oswald';
+$app-header-font: 'Cinzel Decorative',
+cursive;
+$font-size: 1rem;
+// Colors
+$gray-light: #d8daeb;
+$gray: #f7f7f7;
+$gray-dark: #8073ac;

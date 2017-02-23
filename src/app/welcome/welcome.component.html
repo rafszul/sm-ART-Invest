@@ -1,0 +1,35 @@
+<mdl-card class="demo-card-event" mdl-shadow="2" *ngFor="let item of items | async">
+    <mdl-card-title mdl-card-expand>
+        <h4>
+            {{ item.name }}
+        </h4>
+    </mdl-card-title>
+    <img md-card-image src="{{ item.img }}">
+    <mdl-card-actions mdl-card-border>
+        <button mdl-button mdl-colored mdl-ripple (click)="booknow()">
+      Book now
+      </button>
+        <mdl-layout-spacer></mdl-layout-spacer>
+        <mdl-icon>event</mdl-icon>
+    </mdl-card-actions>
+</mdl-card>
+
+
+<md-card *ngFor="let item of items | async" fxFlex="50">
+    <md-card-header>
+        <md-card-title>
+            <h5>{{ item.name }}</h5>
+        </md-card-title>
+        <img md-card-avatar src="{{ item.img }}">
+    </md-card-header>
+    <img md-card-image src="{{ item.img }}">
+    <md-card-content>
+        <h5><small>{{ item.title }}</small></h5>
+        <p>email: {{ item.medium }}</p>
+    </md-card-content>
+
+    <md-card-actions>
+        <button md-button><md-icon>email</md-icon> Email {{ item.name }}</button>
+        <button md-button><md-icon>call</md-icon> Call {{ item.name }}</button>
+    </md-card-actions>
+</md-card>

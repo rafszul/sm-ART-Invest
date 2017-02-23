@@ -18,10 +18,9 @@
         "tsconfig": "tsconfig.json",
         "prefix": "smart",
         "styles": [
-            "styles.scss",
-            "assets/styles/material.min.css"
+            "styles.scss"
         ],
-        "scripts": ["assets/scripts/material.min.js"],
+        "scripts": [],
         "environmentSource": "environments/environment.ts",
         "environments": {
             "dev": "environments/environment.ts",

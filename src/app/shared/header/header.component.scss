@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700|Oswald:200,400&amp;subset=cyrillic');
+header {
+    background: url('./../../../assets/background-tr.svg') center / cover;
+}
+
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 5.5rem;
+    color: #2d004b;
+    // text-decoration: cursive;
+    font-weight: 700;
+    text-decoration-style: cursive;
+}

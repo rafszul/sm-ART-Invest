@@ -12,10 +12,16 @@ import { AngularFireModule } from 'angularfire2';
 import { firebaseConfig } from '../app/shared/firebase.config';
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    WelcomeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

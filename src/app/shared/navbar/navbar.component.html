@@ -1,8 +1,14 @@
 <md-toolbar color="primary">
-  <span>Application Title</span>
+    <span>Application Title</span>
 
-  <!-- This fills the remaining space of the current row -->
-  <span class="example-fill-remaining-space"></span>
+    <!-- This fills the remaining space of the current row -->
+    <span class="example-fill-remaining-space"></span>
 
-  <span>Right Aligned Text</span>
+    <span>
+    <ul>
+      <li>
+        <a [routerLink]="[ {outlets: { modal: 'login' } } ]">Login</a>
+      </li>
+    </ul>
+  </span>
 </md-toolbar>

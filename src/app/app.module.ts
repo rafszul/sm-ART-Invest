@@ -15,13 +15,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { ModalComponent } from './shared/modal/modal.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     WelcomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    ModalComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
